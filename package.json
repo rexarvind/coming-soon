@@ -1,0 +1,17 @@
+{
+  "name": "comingsoon",
+  "version": "1.0.0",
+  "description": "Coming Soon template for new websites",
+  "main": "main.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./public/css/style.css -o ./public/css/style.min.css --watch",
+    "build": "npx tailwindcss -i ./public/css/style.css -o ./public/css/style.min.css --minify",
+    "deploy": "firebase deploy --only hosting",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rexarvind",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
